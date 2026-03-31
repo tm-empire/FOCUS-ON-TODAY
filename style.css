@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #48A30012;
+}
+
+.container {
+    margin: auto;
+    max-width: 660px;
+    min-height: 810px;
+    background-color: #FBFBFB;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.heading {
+    margin: 1rem auto;
+    width: fit-content;
+    font-size: 4rem;
+    color: #48A300;
+}
+
+.heading span {
+    color: #61481C;
+}
+
+p.goal {
+    color: #858585;
+    margin-block: 2rem 1rem;
+}
+
+.progress-container {
+    background-color: #48A3001A;
+    max-width: 574px;
+    height: 30px;
+    border-radius: 1rem;
+}
+.progress-value{
+    height: inherit;
+    border-radius: inherit;
+    max-width: 0%;
+    /* width: 100%; */
+    background-color: #48A300;
+    color: #EEFFE0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.progress-value p{
+    width: fit-content;
+    margin-left: 0.3rem;
+}
+
+
+
+.about-set-goal {
+    color: #FF5151;
+    /* margin-block: 1rem; */
+    min-height: 1rem;
+    padding-block: 1rem;
+    box-sizing: border-box;
+}
+
+.task {
+    max-width: 570px;
+    min-height: 82px;
+    border: 1px solid #0000001A;
+    border-radius: 17px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* display: block; */
+    /* margin-left: 0.5rem; */
+    margin-block: 2.5rem;
+
+}
+
+.task .circle {
+    height: 24px;
+    width: 24px;
+    border: 2px solid #61481C4D;
+    border-radius: 50%;
+    margin-left: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.task .input {
+    max-width: 364px;
+    min-width: 28px;
+    height: 100%;
+    width: 100%;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: #D9D9D9;
+    color: inherit;
+    border: none;
+    background-color: inherit;
+    font-weight: 500;
+}
+
+.task .input:focus {
+    /* border-color: #FBFBFB; */
+    outline: none;
+}
+
+.bottom {
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 3rem;
+}
+
+.made-by {
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 6rem;
+    color: #858585;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.about-set-goal p {
+    display: none;
+}
+
+
+/* .container input, .container button{
+    display: block;
+} */
+
+
+/* backg #c1c7bd */
+/* today colour #4f3b16 */
+
+/* color of score #b9c2b4 */
+/* color of container #c9c9c9 */
+
+/* color of input #cccccc */
