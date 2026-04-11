@@ -18,7 +18,9 @@ const enteredData = JSON.parse(localStorage.getItem('enteredData')) || {};
 const styleDataStatus = JSON.parse(localStorage.getItem('styleDataStatus')) || {};
 
 for (let i = 0; i < inputsTag.length; i++) {
-    inputsTag[i].value = enteredData[i];
+    if(enteredData[i]){
+        inputsTag[i].value = enteredData[i];
+    }
     if (styleDataStatus[i]) {
         // console.log("love you sujit")
         inputsTag[i].classList.toggle('clickedEffect');
